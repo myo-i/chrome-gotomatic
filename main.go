@@ -21,11 +21,9 @@ THE SOFTWARE.
 */
 package main
 
-import (
-	"gotomatic/chrome"
-)
+import "gotomatic/cmd"
 
 func main() {
-	// cmd.Execute()
-	chrome.TabSort()
+	cmd.Execute()
+	// chrome.TabSort()
 }
